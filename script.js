@@ -1,17 +1,17 @@
 // Officer Cash
-var oc = setInterval(go, 1000, new Date("2025-08-08T10:00:00Z").getTime(), "oc-22");
+var oc = setInterval(go, 1000, new Date("2025-08-08T10:00:00+06:00").getTime(), "oc-22");
 
 //Officer General
-var og = setInterval(go, 1000, new Date("2025-08-15T10:00:00Z").getTime(), "og-22");
+var og = setInterval(go, 1000, new Date("2025-08-15T10:00:00+06:00").getTime(), "og-22");
 
 //47th BCS Preliminary
-var bsc47p = setInterval(go, 1000, new Date("2025-09-19T10:00:00Z").getTime(), "bcs-47p");
+var bsc47p = setInterval(go, 1000, new Date("2025-09-19T10:00:00+06:00").getTime(), "bcs-47p");
 
 // 49th BCS
-var bsc49 = setInterval(go, 1000, new Date("2025-10-03T10:00:00Z").getTime(), "bcs-49");
+var bsc49 = setInterval(go, 1000, new Date("2025-10-03T10:00:00+06:00").getTime(), "bcs-49");
 
 // 47th BCS Written 
-var bsc47w = setInterval(go, 1000, new Date("2025-11-27T10:00:00Z").getTime(), "bcs-47w");
+var bsc47w = setInterval(go, 1000, new Date("2025-11-27T10:00:00+06:00").getTime(), "bcs-47w");
 
 function go(timeStamp, n) {
 
