@@ -28,17 +28,13 @@ function go(timeStamp, n) {
     if (seconds < 10) {
         seconds = "0" + seconds;
     }
-    
-  // Output the result in an element with id="demo"
-  document.getElementById(n).innerHTML = days + "Day(s) " + hours + ":"
-  + minutes + ":" + seconds;
-    
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-      document.getElementById(n).innerHTML = "EXPIRED";
-    }
-    let paint,r,g,b,temp;
+    if (minutes < 10) {
+        minutes = "0" + minutes;
+  }
+  if (hours < 10) {
+        hours = "0" + hours;
+  }
+  let paint,r,g,b,temp;
     if (days > 60) {
         paint = "rgb(0,0,255)";
     }
@@ -56,5 +52,19 @@ function go(timeStamp, n) {
         b = 0;
         paint = "rgb(" + r + "," + g + "," + b + ")";
     }
+  if (days < 10) {
+        days = "0" + days;
+  }
+    
+  // Output the result in an element with id="demo"
+  document.getElementById(n).innerHTML = days + "Day(s) " + hours + ":"
+  + minutes + ":" + seconds;
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+      document.getElementById(n).innerHTML = "EXPIRED";
+    }
+    
     document.getElementById(n).style.color = paint;
 }
