@@ -1,12 +1,3 @@
-//SO-22 Viva
-var so_22v_ex = setInterval(go, 1000, new Date("2025-09-15T08:00:00+06:00").getTime(), "so_22v");
-
-//47th BCS Preliminary
-var bsc_47p_ex = setInterval(go, 1000, new Date("2025-09-19T10:00:00+06:00").getTime(), "bcs_47p");
-
-// 49th BCS
-var bsc_49_ex = setInterval(go, 1000, new Date("2025-10-10T10:00:00+06:00").getTime(), "bcs_49");
-
 // 47th BCS Written 
 var bsc_47w_ex = setInterval(go, 1000, new Date("2025-11-27T10:00:00+06:00").getTime(), "bcs_47w");
 
