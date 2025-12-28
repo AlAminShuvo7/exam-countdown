@@ -1,5 +1,28 @@
-// 47th BCS Written 
-var bsc_47w_ex = setInterval(go, 1000, new Date("2025-11-27T10:00:00+06:00").getTime(), "bcs_47w");
+
+
+// ACC DAD 
+var acc_dad_ex = setInterval(go, 1000, new Date("2026-01-03T10:00:00+06:00").getTime(), "acc_dad");
+
+// BIDA AD
+var bida_ad_ex = setInterval(go, 1000, new Date("2026-01-03T14:30:00+06:00").getTime(), "bida_ad");
+
+// ACC AD 
+var acc_ad_ex = setInterval(go, 1000, new Date("2026-01-09T10:00:00+06:00").getTime(), "acc_ad");
+
+// 50th BCS Preliminary
+var bcs_50p_ex = setInterval(go, 1000, new Date("2026-01-30T10:00:00+06:00").getTime(), "bcs_50p");
+
+// 50th BCS Preli Result 
+var bcs_50pr_ex = setInterval(go, 1000, new Date("2026-02-10T22:00:00+06:00").getTime(), "bcs_50pr");
+
+// 50th BCS Written
+var bcs_50w_ex = setInterval(go, 1000, new Date("2026-04-09T10:00:00+06:00").getTime(), "bcs_50w");
+
+// 50th BCS Written Result 
+var bcs_50wr_ex = setInterval(go, 1000, new Date("2026-07-30T22:00:00+06:00").getTime(), "bcs_50wr");
+
+
+
 
 function go(timeStamp, n) {
 
@@ -45,7 +68,7 @@ function go(timeStamp, n) {
   }
     
   // Output the result in an element with id="demo"
-  document.getElementById(n).innerHTML = days + "Day(s) " + hours + ":"
+  document.getElementById(n).innerHTML = days + " Day(s) " + hours + ":"
   + minutes + ":" + seconds;
     
   // If the count down is over, write some text 
