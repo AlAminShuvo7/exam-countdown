@@ -1,14 +1,5 @@
 
 
-// ACC DAD 
-var acc_dad_ex = setInterval(go, 1000, new Date("2026-01-03T10:00:00+06:00").getTime(), "acc_dad");
-
-// BIDA AD
-var bida_ad_ex = setInterval(go, 1000, new Date("2026-01-03T14:30:00+06:00").getTime(), "bida_ad");
-
-// ACC AD 
-var acc_ad_ex = setInterval(go, 1000, new Date("2026-01-09T10:00:00+06:00").getTime(), "acc_ad");
-
 // 50th BCS Preliminary
 var bcs_50p_ex = setInterval(go, 1000, new Date("2026-01-30T10:00:00+06:00").getTime(), "bcs_50p");
 
