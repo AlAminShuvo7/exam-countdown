@@ -1,11 +1,5 @@
 
 
-// 50th BCS Preliminary
-var bcs_50p_ex = setInterval(go, 1000, new Date("2026-01-30T10:00:00+06:00").getTime(), "bcs_50p");
-
-// 50th BCS Preli Result 
-var bcs_50pr_ex = setInterval(go, 1000, new Date("2026-02-10T22:00:00+06:00").getTime(), "bcs_50pr");
-
 // 50th BCS Written
 var bcs_50w_ex = setInterval(go, 1000, new Date("2026-04-09T10:00:00+06:00").getTime(), "bcs_50w");
 
