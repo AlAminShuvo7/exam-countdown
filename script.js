@@ -30,6 +30,8 @@ function go(timeStamp, n) {
   if (hours < 10) {
         hours = "0" + hours;
   }
+
+  //Color changing logic
   let paint,r,g,b,temp;
     if (days > 60) {
         paint = "rgb(0,0,255)";
